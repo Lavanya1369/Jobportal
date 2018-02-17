@@ -35,7 +35,7 @@ public class FourthActivity extends AppCompatActivity {
         int o= Integer.parseInt(method);
         int n=Integer.parseInt(topic_name);
         if(o!=0&&n!=0){
-             count=(n*o)/100;
+             count=(n*o)/10;
 
         }
         textView4.setText(String.valueOf(count));
